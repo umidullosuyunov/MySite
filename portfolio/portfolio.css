@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Red Rose", cursive;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 940px;
+  width: 100%;
+}
+/* HEADER */
+.main-nav {
+  border-bottom: 1px solid #828282;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  list-style: none;
+}
+.item {
+  margin: 0;
+}
+.item-link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #828282;
+}
+.item-link:hover {
+  color: #070707;
+}
+
+/* HOME-PAGE */
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 30px 0;
+}
+.personal-info {
+  margin: 0;
+  color: #070707;
+}
+h1 {
+  font-size: 47.3392px;
+  line-height: 59px;
+}
+.middle {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.last {
+  transform: rotate(-90deg);
+}
+.language {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+}
+.eng {
+  color: #070707;
+}
+
+/* СУКА НАДО РАЗОБРАТЬСЯ С ЭТИМ ЕБУЧИМ БЛОКОМ  HOME-PAGE */
+
+/* ABOUT ME */
+.about-me {
+  background: #f6f6f6;
+}
+h2 {
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 700;
+  text-align: center;
+  color: #070707;
+  padding-top: 110px;
+  margin-bottom: 20px;
+}
+.my-text {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 485px;
+  padding-bottom: 100px;
+}
+.about-me-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* SKILLS */
+.skills-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.skills-elements {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.overall {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.o-stars {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.skills-img {
+  margin: 0;
+  margin-bottom: 23px;
+}
+.elements-description {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 40px;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+  background-color: #f6f6f6;
+}
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.f-s-links {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.footer-a {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 60px;
+}
+.portfolio-heading {
+  margin-bottom: 42px;
+}
+.p-projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.p-text {
+  margin-top: 54px;
+  margin-bottom: 100px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
